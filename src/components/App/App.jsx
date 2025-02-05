@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Nav from '../Nav/Nav';
+import Home from '../Home/Home';
 
 class App extends React.Component {
 	render() {
@@ -10,6 +11,7 @@ class App extends React.Component {
 				<Nav />
 
 				{/* {Landing section} */}
+				<Home />
 
 				{/* {Challenge section} */}
 
